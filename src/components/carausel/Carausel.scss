@@ -1,0 +1,42 @@
+.carausel {
+  margin-top: 120px;
+  .carausel_card {
+    padding-top: 162px;
+    padding-bottom: 154px;
+    h3 {
+      color: #2c2d2e;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 13px;
+    }
+    h1 {
+      margin-top: 16px;
+      color: #2c2d2e;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 40px;
+    }
+    p {
+      margin-top: 16px;
+      margin-bottom: 23px;
+      color: #2c2d2e;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px;
+      max-width: 582px;
+    }
+    a {
+      //   margin-top: 20px;
+      padding: 10px 20px;
+      border-radius: 4px;
+      background: #ef7c00;
+      color: #fff;
+      &:hover {
+        background-color: #eda75b;
+      }
+    }
+  }
+}
